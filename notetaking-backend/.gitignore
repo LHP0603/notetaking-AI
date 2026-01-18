@@ -1,0 +1,27 @@
+# Environment files
+.env
+#dangbh39@gmail.com
+voicely-473515-17ba56fc6e39.json
+#dangduyai36@gmail.com
+voicely-474001-842320946404.json
+
+#new:
+voicely-be-482416-18706ffed61a.json
+voicely-e0367-firebase-adminsdk-fbsvc-b41e4f72e4.json
+#danielbuifvn@gmail.com
+voicely-be-fb9f1d6b9381.json
+voicely-030902-firebase-adminsdk-fbsvc-3a37818a35.json
+voicely-6808a-firebase-adminsdk-fbsvc-2f8c755c7c.json
+
+# DS store files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+
+# Uploaded files
+uploads/
+uploads/audio/
+uploads/audio/*

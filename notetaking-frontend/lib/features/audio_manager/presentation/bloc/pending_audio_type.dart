@@ -1,0 +1,4 @@
+enum PendingAudioType {
+  untranscribed,
+  unsummarized,
+}
