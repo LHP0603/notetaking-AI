@@ -65,7 +65,7 @@ cd voicely-app
 **Option B: Sử dụng Git (Nếu có private repository)**
 ```bash
 # Trên server
-git clone https://github.com/HudsonBui/Voicely-BE.git
+git clone https://github.com/LHP0603/notetaking-AI
 cd Voicely-BE
 git checkout implement_note_feature
 ```
