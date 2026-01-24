@@ -37,6 +37,7 @@ This project is built with a **Flutter frontend** and a **Node.js backend**, fol
 ## 📌 Luồng hoạt động hệ thống (System Workflow)
 
 ```mermaid
+graph TD
     User -->|Record Audio| FE[Flutter App]
     FE -->|Upload Audio| BE[Backend API]
     BE -->|Save Metadata| DB[(Database)]
