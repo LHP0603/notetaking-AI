@@ -34,3 +34,20 @@ This project is built with a **Flutter frontend** and a **Node.js backend**, fol
 - AI & Embedding integration
 
 ---
+## 📌 Luồng hoạt động hệ thống (System Workflow)
+
+```mermaid
+    User -->|Record Audio| FE[Flutter App]
+    FE -->|Upload Audio| BE[Backend API]
+    BE -->|Save Metadata| DB[(Database)]
+    BE -->|Create Job| Queue[Background Job Queue]
+
+    Queue --> Worker[Audio Worker]
+    Worker -->|Process Audio| AI[AI Services]
+    AI -->|Generate Note| BE
+
+    BE -->|Store Note| DB
+    BE -->|Send Response| FE
+    FE -->|Display Result| User
+```
+
