@@ -17,3 +17,20 @@ This project is built with a **Flutter frontend** and a **Node.js backend**, fol
 - Receive system notifications
 
 ---
+## 🧩 Tech Stack
+
+### Frontend
+- Flutter
+- Clean Architecture
+- BLoC (State Management)
+- Dio (HTTP Client)
+- GetIt (Dependency Injection)
+
+### Backend
+- Node.js
+- RESTful API
+- Background job processing
+- Database with relational modeling
+- AI & Embedding integration
+
+---
