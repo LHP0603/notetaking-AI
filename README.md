@@ -1,23 +1,22 @@
-# 🎙️Voicely – Voice Note & AI Assistant Platform
+# 🎙️Voice Note & AI Assistant Platform
 
-Voicely is a **full-stack voice-based note-taking and AI assistant platform** that allows users to record audio, process it asynchronously, generate notes, and interact with an AI-powered chatbot.
-
-This project is built with a **Flutter frontend** and a **Node.js backend**, following **Clean Architecture** principles and supported by **comprehensive Mermaid diagram documentation**.
----
-
-## 📌 Project Overview
-
-**Voicely** helps users:
-- Record and upload voice audio
-- Process audio with background jobs
-- Automatically generate notes from audio
-- Organize notes and audios into folders
-- Search notes using embeddings
-- Chat with an AI assistant (RAG-based)
-- Receive system notifications
+Voice Note là một nền tảng ghi chú bằng giọng nói và trợ lý AI toàn diện (full-stack). Hệ thống cho phép người dùng ghi âm, xử lý âm thanh bất đồng bộ, tự động tạo ghi chú và tương tác với chatbot chạy bằng AI.
 
 ---
-## 🧩 Tech Stack
+
+## 📌 Tính năng nổi bật
+
+**Voice Note** helps users:
+-Ghi âm và tải lên: Thu âm trực tiếp và tải các tệp âm thanh lên hệ thống.
+-Xử lý nền: Tự động xử lý âm thanh thông qua các tác vụ chạy ngầm (background jobs).
+-Tự động tạo ghi chú: Chuyển đổi nội dung từ âm thanh thành văn bản ghi chú một cách tự động.
+-Quản lý khoa học: Tổ chức ghi chú và tệp âm thanh vào các thư mục để dễ dàng quản lý.
+-Tìm kiếm thông minh: Tìm kiếm ghi chú bằng công nghệ nhúng (embeddings), giúp tìm theo ý nghĩa thay vì chỉ từ khóa.
+-Trợ lý AI (RAG): Trò chuyện với trợ lý AI dựa trên dữ liệu cá nhân (Retrieval-Augmented Generation).
+-Thông báo hệ thống: Nhận thông báo cập nhật về trạng thái xử lý và các hoạt động khác.
+
+---
+## 🧩 Công nghệ sử dụng
 
 ### Frontend
 - Flutter
